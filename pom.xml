@@ -17,6 +17,8 @@
 		<java.version>17</java.version>
 		<org.projectlombok.version>1.18.24</org.projectlombok.version>
 		<org.mapstruct.version>1.5.2.Final</org.mapstruct.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
@@ -124,6 +126,7 @@
 							<version>${org.mapstruct.version}</version>
 						</path>
 					</annotationProcessorPaths>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
